@@ -24,7 +24,8 @@ import telegram from "./contact/telegram-48.png"
 
 import desoft from "./company/desoft.png"
 
-import traveladvisor from "./travel-advisor.png"
+import travel_advisor from "./travel-advisor.png"
+import show_case from "./car-showcase.png"
 
 export {
   java,
@@ -48,6 +49,7 @@ export {
   reactjs,
   tailwind,
   desoft,
-  traveladvisor,
+  travel_advisor,
   typescript,
+  show_case,
 };

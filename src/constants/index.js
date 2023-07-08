@@ -9,11 +9,12 @@ import {
   tailwind,
   git,
   desoft,
-  traveladvisor,
+  travel_advisor,
   postgresql,
   java,
   creator,
-  typescript
+  typescript,
+  show_case,
 } from "../assets";
 
 export const navLinks = [
@@ -108,24 +109,61 @@ const experiences = [
 const projects = [
   {
     name: "Travel Advisor",
-    description:
-      "Web-based platform that allows users to search and plan their leisure activities",
+    description: "Web-based platform that allows users to search and plan their leisure activities",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
+        name: "vite",
+        color: "gold-text-gradient",
+      },
+      {
         name: "rapidAPI",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MaterialUI",
         color: "pink-text-gradient",
       },
+      {
+        name: "cloudGoogle",
+        color: "orange-text-gradient",
+      },
+
     ],
-    image: traveladvisor,
+    image: travel_advisor,
     source_code_link: "https://github.com/caluff/travel_advisor",
+  },
+  {
+    name: "Car Showcase",
+    description: "Website that helps you find, book or rent cars. Quickly and easily.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "gold-text-gradient",
+      },
+      {
+        name: "rapidAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "orange-text-gradient",
+      },
+
+    ],
+    image: show_case,
+    source_code_link: "https://github.com/caluff/car_showcase",
   },
 ];
 
