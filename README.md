@@ -20,7 +20,7 @@ Hello! I'm Daniel Caluff, a web developer with experience in React and Next.js
 
 ### Travel Advisor
 
-Web-based platform that allows users to search and plan their leisure activities.
+Searching for places, Fetching restaurants, hotels and attractions based on location from specialized Rapid APIs
 
 ![Travel Advisor](./src/assets/travel-advisor.png)
 

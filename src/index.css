@@ -3,42 +3,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/*efect de letra de starwars ----------no se esta usando----------*/
-@keyframes scroll {
-  0%   { top: 50%; }
-  100% { top: -170%; }
-}
-.titles:after {
-  position: absolute;
-  content: ' ';
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 60%;
-  background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
-  pointer-events: none;
-}
-.titles  {
-  position: absolute;
-  width: 18em;
-  height: 50em;
-  bottom: 0;
-  left: 40%;
-  margin-left: -9em;
-  font-size: 350%;
-  font-weight: bold;
-  text-align: justify;
-  overflow: hidden;
-  transform-origin: 40% 100%;
-  -webkit-transform: perspective(300px) rotateX(25deg);
-
-}
-.titlecontent {
-  position: absolute;
-  top: 100%;
-  animation: scroll 100s linear 4s infinite;
-}
-/*------------------efecto de letra de starwars-----------*/
 * {
   margin: 0;
   padding: 0;
@@ -167,6 +131,21 @@
           to top,
           gold,
           darkkhaki
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.violet-text-gradient {
+  background: darkviolet; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+          to top,
+          darkviolet,
+          lightpink
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+          to top,
+          darkviolet,
+          lightpink
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -109,7 +109,7 @@ const experiences = [
 const projects = [
   {
     name: "Travel Advisor",
-    description: "Web-based platform that allows users to search and plan their leisure activities",
+    description: "Searching for places, Fetching restaurants, hotels and attractions based on location from specialized Rapid APIs",
     tags: [
       {
         name: "react",
@@ -130,6 +130,10 @@ const projects = [
       {
         name: "cloudGoogle",
         color: "orange-text-gradient",
+      },
+      {
+        name: "headlessUI",
+        color: "violet-text-gradient",
       },
 
     ],
