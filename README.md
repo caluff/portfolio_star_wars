@@ -20,11 +20,19 @@ Hello! I'm Daniel Caluff, a web developer with experience in React and Next.js
 
 ### Travel Advisor
 
-Web-based platform that allows users to search and plan their leisure activities
+Web-based platform that allows users to search and plan their leisure activities.
 
 ![Travel Advisor](./src/assets/travel-advisor.png)
 
 [View code](https://github.com/caluff/travel_advisor)
+
+### Car Showcase
+
+Website that helps you find, book or rent cars. Quickly and easily.
+
+![Car Showcase](./src/assets/car-showcase.png)
+
+[View code](https://github.com/caluff/car_showcase)
 
 ## Contact
 
