@@ -131,11 +131,6 @@ const projects = [
         name: "cloudGoogle",
         color: "orange-text-gradient",
       },
-      {
-        name: "headlessUI",
-        color: "violet-text-gradient",
-      },
-
     ],
     image: travel_advisor,
     source_code_link: "https://github.com/caluff/travel_advisor",
@@ -164,7 +159,10 @@ const projects = [
         name: "typescript",
         color: "orange-text-gradient",
       },
-
+      {
+        name: "headlessUI",
+        color: "violet-text-gradient",
+      },
     ],
     image: show_case,
     source_code_link: "https://github.com/caluff/car_showcase",
