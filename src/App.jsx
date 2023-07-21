@@ -5,7 +5,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
-        <div className="gotham">
+        <div className="gotham relative">
           <Design/>
           <Navbar/>
           <Hero/>
@@ -15,8 +15,8 @@ function App() {
         <Tech/>
         <Works/>
         <div className="relative z-0">
-          <Contact/>
-          <StarsCanvas/>
+          {/*<Contact/>*/}
+          {/*<StarsCanvas/>*/}
         </div>
       </div>
     </BrowserRouter>

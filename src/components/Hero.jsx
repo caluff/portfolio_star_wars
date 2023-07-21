@@ -26,55 +26,26 @@ const Hero = () => {
             <div className="w-1 sm:h-80 h-40 yellow-gradient"/>
           </div>
 
-          <motion.a
-            initial={{opacity: 0, x:-50}}
-            animate={{opacity: 1, x:0}}
-            transition={
-              {
-                duration: 2,
-                delay: 0.5
-              }
-            }
-            href='https://www.linkedin.com/in/danielcaluff' target={"_blank"}
-          >
+          <a href='https://www.linkedin.com/in/danielcaluff' target={"_blank"}>
             <img src={linkedin}
                  className={"my-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 delay-0"}
                  alt={"linkedin"}/>
-          </motion.a>
-          <motion.a
-            initial={{opacity: 0,x:-50}}
-            animate={{opacity: 1, x:0}}
-            transition={
-              {
-                duration: 2,
-                delay: 1.5
-              }
-            }
-            href={'https://api.whatsapp.com/send?phone=5356490516'} target={"_blank"}>
+          </a>
+          <a href={'https://api.whatsapp.com/send?phone=5356490516'} target={"_blank"}>
             <img src={whatsapp}
                  className={"my-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 delay-0"}
                  alt={"whatsapp"}/>
-          </motion.a>
-          <motion.a
-            initial={{opacity: 0 , x:-50}}
-            animate={{opacity: 1, x:0}}
-            transition={
-              {
-                duration: 2,
-                delay: 2.5
-              }
-            }
-            href={'https://t.me/DanielCaluff'} target={"_blank"}>
+          </a>
+          <a href={'https://t.me/DanielCaluff'} target={"_blank"}>
             <img src={telegram}
                  className={"my-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 delay-0"}
                  alt={"telegram"}/>
-          </motion.a>
-
+          </a>
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm &nbsp;
-            <span className="text-[#FAD64C]">Caluff</span>
+            Hi, I'm&nbsp;
+            <span className="text-[#FAD64C]">Daniel Caluff</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Software Developer <br className="sm:block hidden"/>
@@ -83,24 +54,16 @@ const Hero = () => {
             className={'text-transparent bg-clip-text bg-gradient-to-r from-[#f12711] to-[#f5af19]'}
           >WEB</span> application
           </p>
-          <motion.button
-            initial={{opacity: 0,y:50}}
-            animate={{opacity: 1, y:0}}
-            transition={
-              {
-                duration: 2,
-                delay: 0
-              }
-            }
+          <button
             onClick={downloadFile}
             className={"transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 delay-0 mt-6 shadow-lg shadow-yellow-500/50 bg-[#FAD64C] hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 text-black font-semibold h-12 px-12 rounded-lg w-full flex items-center justify-center sm:w-auto"}
           >
             Show CV
-          </motion.button>
+          </button>
         </div>
       </div>
-      <div className={"lg:ml-96 h-full"}>
-        <ComputersCanvas/>
+      <div className={"lg:ml-[40rem] h-full"}>
+        {/*<ComputersCanvas/>*/}
       </div>
       <div className="z-10 absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">

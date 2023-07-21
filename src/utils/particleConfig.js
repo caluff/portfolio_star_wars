@@ -60,7 +60,7 @@ export const ParticleConfig = {
        "triangles": {
          "enable": true,
          "color": "#0000",
-         "opacity": 0.004
+         "opacity": 0.01
        }
     },
     "move": {
@@ -78,8 +78,11 @@ export const ParticleConfig = {
       }
     }
   },
-
+  "fullScreen":{
+    "enable": false,
+  },
   "interactivity": {
+    "detect_on": "window",
     "events": {
       "onHover": {
         "enable": true,
@@ -102,7 +105,7 @@ export const ParticleConfig = {
         "distance": 250,
         "size": 4,
         "duration": 0.8,
-        "opacity": 0.2,
+        "opacity": 0.4,
         "speed": 1,
         "color":"#f5af19",
 
