@@ -52,7 +52,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My work</p>
-        <h2 className={styles.sectionHeadText}>Projects</h2>
+        <h2 className={styles.sectionHeadText}>ProJectS</h2>
       </motion.div>
       <div className="w-full flex">
         <motion.p variants={fadeIn("", "", 0.1, 1)}

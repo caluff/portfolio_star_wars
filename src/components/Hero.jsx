@@ -42,16 +42,15 @@ const Hero = () => {
                  alt={"telegram"}/>
           </a>
         </div>
-        <div>
+        <div >
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm&nbsp;
-            <span className="text-[#FAD64C]">Daniel Caluff</span>
+            Hi, i'm&nbsp;
+            <span className="font-stare text-[#FAD64C] tracking-wide">Daniel caluff</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Software Developer <br className="sm:block hidden"/>
             focused in <span
-
-            className={'text-transparent bg-clip-text bg-gradient-to-r from-[#f12711] to-[#f5af19]'}
+            className={'text-transparent bg-clip-text bg-gradient-to-r from-[#f12711] to-[#f5af19] font-stare'}
           >WEB</span> application
           </p>
           <button

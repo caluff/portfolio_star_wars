@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'star': ['star', 'sans-serif']
+        stare: ['star', 'sans-serif'],
+        staro: ['starout', 'sans-serif']
       },
       colors: {
         primary: "#000000",

@@ -6,7 +6,11 @@
 
 @font-face {
   font-family: 'star';
-  src: url('/src/assets/fonts/StarJediRounded-jW3R.ttf') format('truetype');
+  src: url('assets/fonts/Starjedi.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'starout';
+  src: url('assets/fonts/Starjout.ttf') format('truetype');
 }
 
 .gotham {
