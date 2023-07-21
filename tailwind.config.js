@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'star': ['star', 'sans-serif']
+      },
       colors: {
         primary: "#000000",
         secondary: "#aaa6c3",

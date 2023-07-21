@@ -63,7 +63,7 @@ const Hero = () => {
         </div>
       </div>
       <div className={"lg:ml-[40rem] h-full"}>
-        {/*<ComputersCanvas/>*/}
+        <ComputersCanvas/>
       </div>
       <div className="z-10 absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
