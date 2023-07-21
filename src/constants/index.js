@@ -128,7 +128,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "cloudGoogle",
+        name: "GoogleCloud",
         color: "orange-text-gradient",
       },
     ],

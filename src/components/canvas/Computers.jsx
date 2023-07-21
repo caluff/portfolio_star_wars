@@ -31,8 +31,8 @@ const Computers = ({isMobile}) => {
                  shadow-mapSize={1024}
       />
       <primitive object={scene}
-                 scale={isMobile ? 2 : 4.8}
-                 position={isMobile ? [0, -2.25, -0.5] : [-1, -2.65, -0.5]}
+                 scale={isMobile ? 2 : 3.2}
+                 position={isMobile ? [0, -2.25, -0.5] : [-1, -1.8, -0.5]}
                  rotation={[-0.01, -0.0, -0.005]}
       />
     </mesh>
@@ -56,7 +56,7 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop="demand"
       shadows
-      camera={{position: [1.2, 3, 5]}}
+      camera={{position: [1.2, 3, 0]}}
       gl={{preserveDrawingBuffer: true}}
     >
       <Suspense fallback={<CanvasLoader/>}>
