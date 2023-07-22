@@ -105,7 +105,7 @@ export const ParticleConfig = {
         "distance": 250,
         "size": 4,
         "duration": 0.8,
-        "opacity": 0.4,
+        "opacity": 0.6,
         "speed": 1,
         "color":"#f5af19",
 

@@ -1,12 +1,12 @@
 import {BrowserRouter} from "react-router-dom";
-import {About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, Design} from './components';
+import {About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, ParticlesCanvas} from './components';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
         <div className="gotham relative">
-          <Design/>
+          <ParticlesCanvas/>
           <Navbar/>
           <Hero/>
         </div>
@@ -22,5 +22,4 @@ function App() {
     </BrowserRouter>
   )
 }
-
 export default App

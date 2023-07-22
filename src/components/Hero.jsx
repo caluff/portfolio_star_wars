@@ -1,10 +1,7 @@
 import React from "react";
 import {motion} from "framer-motion";
-
 import {styles} from "../styles";
-import {ComputersCanvas} from "./canvas";
 import {whatsapp, telegram, linkedin} from "../assets"
-import {fadeIn} from "../utils/motion.js";
 
 function downloadFile() {
   const link = document.createElement('a');
@@ -42,10 +39,10 @@ const Hero = () => {
                  alt={"telegram"}/>
           </a>
         </div>
-        <div >
+        <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, i'm&nbsp;
-            <span className="font-stare text-[#FAD64C] tracking-wide">Daniel caluff</span>
+            Hi, I'm
+            <span className="font-stare text-[#FAD64C] tracking-wide">&nbsp;Daniel caluff</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Software Developer <br className="sm:block hidden"/>
@@ -60,9 +57,6 @@ const Hero = () => {
             Show CV
           </button>
         </div>
-      </div>
-      <div className={"lg:ml-[40rem] h-full"}>
-        <ComputersCanvas/>
       </div>
       <div className="z-10 absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
