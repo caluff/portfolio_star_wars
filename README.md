@@ -2,7 +2,7 @@
 
 Hello! I'm Daniel Caluff, a web developer with experience in React and Next.js
 
-![Daniel Caluff Portfolio](./src/assets/portfolio.png)
+![Daniel Caluff Portfolio](./src/assets/portfolio.jpg)
 
 ## Skills
 
@@ -22,7 +22,7 @@ Hello! I'm Daniel Caluff, a web developer with experience in React and Next.js
 
 Searching for places, Fetching restaurants, hotels and attractions based on location from specialized Rapid APIs
 
-![Travel Advisor](./src/assets/travel-advisor.png)
+![Travel Advisor](./src/assets/travel-advisor.jpg)
 
 [View code](https://github.com/caluff/travel_advisor)
 
@@ -30,7 +30,7 @@ Searching for places, Fetching restaurants, hotels and attractions based on loca
 
 Website that helps you find, book or rent cars. Quickly and easily.
 
-![Car Showcase](./src/assets/car-showcase.png)
+![Car Showcase](./src/assets/car-showcase.jpg)
 
 [View code](https://github.com/caluff/car_showcase)
 

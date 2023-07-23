@@ -23,8 +23,8 @@ import linkedin from "./contact/linkedin-48.png"
 import telegram from "./contact/telegram-48.png"
 
 import desoft from "./company/desoft.png"
-import travel_advisor from "./travel-advisor.png"
-import show_case from "./car-showcase.png"
+import travel_advisor from "./travel-advisor.jpg"
+import show_case from "./car-showcase.jpg"
 
 export {
   java,

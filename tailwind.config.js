@@ -8,7 +8,6 @@ export default {
     extend: {
       fontFamily: {
         stare: ['star', 'sans-serif'],
-        staro: ['starout', 'sans-serif']
       },
       colors: {
         primary: "#000000",
