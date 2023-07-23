@@ -8,16 +8,16 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import reactjs from "./tech/reactjs.png";
-import tailwind from "./tech/tailwind.png";
-import postgresql from "./tech/postgresql.png";
-import nextjs from "./tech/nextjs.png";
-import java from "./tech/java.png";
-import typescript from "./tech/typescript.png";
+import css from "./tech/css.svg";
+import git from "./tech/git.svg";
+import html from "./tech/html.svg";
+import javascript from "./tech/js.svg";
+import reactjs from "./tech/reactjs.svg";
+import tailwind from "./tech/tailwindcss.svg";
+import postgresql from "./tech/postgresql.svg";
+import java from "./tech/java.svg";
+import typescript from "./tech/typescript.svg";
+import nextjs from "./tech/nextjs.svg";
 
 import whatsapp from "./contact/whatsapp-48.png"
 import linkedin from "./contact/linkedin-48.png"
