@@ -45,9 +45,9 @@ const Hero = () => {
           </a>
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm
-            <span className="font-stare text-[#FAD64C] tracking-wide">&nbsp;Daniel caluff</span>
+          <h1 className={`${styles.heroHeadText} text-white text-[40px]`}>
+            Hi, I'm &nbsp;
+            <span className="font-stare text-[#FAD64C] tracking-wide">Daniel caluff</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Software Developer <br className="sm:block hidden"/>
