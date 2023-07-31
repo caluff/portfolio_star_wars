@@ -1,7 +1,7 @@
 import React from "react";
 import {motion} from "framer-motion";
 import {styles} from "../styles";
-import {whatsapp, telegram, linkedin} from "../assets"
+import {whatsapp, telegram, linkedin, github_contact} from "../assets"
 
 function downloadFile() {
   const link = document.createElement('a');
@@ -23,18 +23,23 @@ const Hero = () => {
             <div className="w-1 sm:h-80 h-40 yellow-gradient"/>
           </div>
 
-          <a href='https://www.linkedin.com/in/danielcaluff' target={"_blank"}>
+          <a href={'https://www.linkedin.com/in/danielcaluff'} target={"_blank"}>
             <img src={linkedin}
                  className={"my-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 delay-0"}
                  alt={"linkedin"}/>
+          </a>
+          <a href={'https://t.me/DanielCaluff'} target={"_blank"}>
+            <img src={telegram}
+                 className={"my-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 delay-0"}
+                 alt={"telegram"}/>
           </a>
           <a href={'https://api.whatsapp.com/send?phone=5356490516'} target={"_blank"}>
             <img src={whatsapp}
                  className={"my-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 delay-0"}
                  alt={"whatsapp"}/>
           </a>
-          <a href={'https://t.me/DanielCaluff'} target={"_blank"}>
-            <img src={telegram}
+          <a href={'https://github.com/caluff'} target={"_blank"}>
+            <img src={github_contact}
                  className={"my-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 delay-0"}
                  alt={"telegram"}/>
           </a>

@@ -22,7 +22,7 @@ Hello! I'm Daniel Caluff, a web developer with experience in React and Next.js
 
 Searching for places, Fetching restaurants, hotels and attractions based on location from specialized Rapid APIs
 
-![Travel Advisor](./src/assets/travel-advisor.jpg)
+![Travel Advisor](./src/assets/travel-advisor.webp)
 
 [View code](https://github.com/caluff/travel_advisor)
 

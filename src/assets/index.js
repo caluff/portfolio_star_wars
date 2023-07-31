@@ -22,10 +22,13 @@ import nextjs from "./tech/nextjs.svg";
 import whatsapp from "./contact/whatsapp-48.png"
 import linkedin from "./contact/linkedin-48.png"
 import telegram from "./contact/telegram-48.png"
+import github_contact from "./contact/github-48.png"
 
 import desoft from "./company/desoft.png"
-import travel_advisor from "./travel-advisor.jpg"
+
+import travel_advisor from "./travel-advisor.webp"
 import show_case from "./car-showcase.jpg"
+import blackout from './blackout.webp'
 
 export {
   java,
@@ -51,4 +54,6 @@ export {
   travel_advisor,
   typescript,
   show_case,
+  blackout,
+  github_contact,
 };

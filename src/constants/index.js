@@ -15,6 +15,7 @@ import {
   creator,
   typescript,
   show_case,
+  blackout,
 } from "../assets";
 
 export const navLinks = [
@@ -134,6 +135,8 @@ const projects = [
     ],
     image: travel_advisor,
     source_code_link: "https://github.com/caluff/travel_advisor",
+    url_code_link: "https://danielcaluff-traveladvisor.vercel.app/",
+    developing:false,
   },
   {
     name: "Car Showcase",
@@ -166,6 +169,43 @@ const projects = [
     ],
     image: show_case,
     source_code_link: "https://github.com/caluff/car_showcase",
+    url_code_link: "https://danielcaluff-car-showcase.vercel.app/",
+    developing:false,
+  },
+  {
+    name: "Blackout",
+    description: "Website of a caffee-bar that offers information on prices and conditions of products on sale." +
+      " In addition, it has an administration section where those in charge of the caffee-bar can easily modify the offers.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "gold-text-gradient",
+      },
+      {
+        name: "xata.io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "cloudinary",
+        color: "violet-text-gradient",
+      },
+    ],
+    image: blackout,
+    source_code_link: "https://github.com/caluff/blackout_coffee",
+    url_code_link: "https://danielcaluff-blackout-coffee.vercel.app/",
+    developing:true,
   },
 ];
 
