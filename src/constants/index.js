@@ -110,7 +110,8 @@ const experiences = [
 const projects = [
   {
     name: "Travel Advisor",
-    description: "Searching for places, Fetching restaurants, hotels and attractions based on location from specialized Rapid APIs",
+    description: "Searching for places, Fetching restaurants, hotels and attractions based on location from specialized Rapid APIs" +
+        "",
     tags: [
       {
         name: "react",
@@ -140,7 +141,9 @@ const projects = [
   },
   {
     name: "Car Showcase",
-    description: "Website that helps you find, book or rent cars. Quickly and easily.",
+    description: "Website that helps you find, book or rent cars. Quickly and easily." +
+        "" +
+        "",
     tags: [
       {
         name: "react",
@@ -174,8 +177,7 @@ const projects = [
   },
   {
     name: "Blackout",
-    description: "Website of a caffee-bar that offers information on prices and conditions of products on sale." +
-      " In addition, it has an administration section where those in charge of the caffee-bar can easily modify the offers.",
+    description: "Coffee-bar website which provides prices and conditions information of products on sale. In addition, it has a management section where supervisor can easily modify offers",
     tags: [
       {
         name: "react",
