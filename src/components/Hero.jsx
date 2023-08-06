@@ -5,7 +5,7 @@ import {whatsapp, telegram, linkedin, github_contact} from "../assets"
 
 function downloadFile() {
   const link = document.createElement('a');
-  link.href = "https://drive.google.com/file/d/1XKQEiaW9zn1mgXl91rL5S1yABMUaB8cH/view?usp=drive_link";
+  link.href = "https://drive.google.com/file/d/1vwkZUb9yJRsq9HrkbrhjxuLjqPdewxO5/view?usp=drive_link";
   link.target = "_blank"
   link.download = "Daniel_Caluff_CV.pdf";
   link.click();
