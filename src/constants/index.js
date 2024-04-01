@@ -16,6 +16,7 @@ import {
   typescript,
   show_case,
   blackout,
+  freelance
 } from "../assets";
 
 export const navLinks = [
@@ -96,6 +97,7 @@ const experiences = [
     title: "Web Developer",
     company_name: "Desoft",
     icon: desoft,
+    time: 'Part time',
     iconBg: "#383E56",
     date: "Jan 2023 - Present",
     points: [
@@ -105,13 +107,29 @@ const experiences = [
       "Participate in code reviews",
     ],
   },
+  {
+    title: "Web Developer",
+    company_name: "Freelance",
+    icon: freelance,
+    time:'Full time',
+    iconBg: "#383E56",
+    date: "Aug 2023 - Present",
+    points: [
+      "Development and support of web applications using Next.js and other related technologies and post-development maintenance to ensure customer satisfaction",
+      "Work closely with the product team to understand and implement business needs",
+      "Optimizing web application performance to improve user experience",
+      "Effectively balance multiple projects and deadlines simultaneously",
+      "Contribute to the planning and estimation of software development projects",
+      "Ability to work autonomously and make design and development decisions",
+    ],
+  },
 ];
 
 const projects = [
   {
     name: "Travel Advisor",
     description: "Searching for places, Fetching restaurants, hotels and attractions based on location from specialized Rapid APIs" +
-        "",
+      "",
     tags: [
       {
         name: "react",
@@ -137,13 +155,13 @@ const projects = [
     image: travel_advisor,
     source_code_link: "https://github.com/caluff/travel_advisor",
     url_code_link: "https://danielcaluff-traveladvisor.vercel.app/",
-    developing:false,
+    developing: false,
   },
   {
     name: "Car Showcase",
     description: "Website that helps you find, book or rent cars. Quickly and easily." +
-        "" +
-        "",
+      "" +
+      "",
     tags: [
       {
         name: "react",
@@ -173,7 +191,7 @@ const projects = [
     image: show_case,
     source_code_link: "https://github.com/caluff/car_showcase",
     url_code_link: "https://danielcaluff-car-showcase.vercel.app/",
-    developing:false,
+    developing: false,
   },
   {
     name: "Blackout",
@@ -207,7 +225,7 @@ const projects = [
     image: blackout,
     source_code_link: "https://github.com/caluff/blackout_coffee",
     url_code_link: "https://danielcaluff-blackout-coffee.vercel.app/",
-    developing:true,
+    developing: true,
   },
 ];
 

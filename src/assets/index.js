@@ -25,6 +25,7 @@ import telegram from "./contact/telegram-48.png"
 import github_contact from "./contact/github-48.png"
 
 import desoft from "./company/desoft.png"
+import freelance from "./company/freelance.png"
 
 import travel_advisor from "./travel-advisor.webp"
 import show_case from "./car-showcase.jpg"
@@ -56,4 +57,5 @@ export {
   show_case,
   blackout,
   github_contact,
+  freelance
 };
