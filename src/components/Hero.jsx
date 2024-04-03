@@ -5,7 +5,7 @@ import {whatsapp, telegram, linkedin, github_contact} from "../assets"
 
 function downloadFile() {
   const link = document.createElement('a');
-  link.href = "https://drive.google.com/file/d/1vwkZUb9yJRsq9HrkbrhjxuLjqPdewxO5/view?usp=drive_link";
+  link.href = import.meta.env.VITE_APP_CV_URL;
   link.target = "_blank"
   link.download = "Daniel_Caluff_CV.pdf";
   link.click();
@@ -33,7 +33,7 @@ const Hero = () => {
                  className={"my-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 delay-0"}
                  alt={"telegram"}/>
           </a>
-          <a href={'https://api.whatsapp.com/send?phone=5356490516'} target={"_blank"}>
+          <a href={`https://api.whatsapp.com/send?phone=${import.meta.env.VITE_APP_NUMBER}`} target={"_blank"}>
             <img src={whatsapp}
                  className={"my-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 delay-0"}
                  alt={"whatsapp"}/>
