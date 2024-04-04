@@ -6,6 +6,7 @@ import {styles} from "../styles";
 import {fadeIn, textVariant} from "../utils/motion";
 import {SectionWrapper} from '../hoc';
 import {services} from "../constants";
+import {PinContainer} from "./ui/Td_pin.jsx";
 
 const ServiceCard = ({index, title, icon}) => (
   <Tilt className="xs:w-[250px] w-full">

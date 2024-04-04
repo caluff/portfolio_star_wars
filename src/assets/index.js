@@ -7,6 +7,7 @@ import web from "./web.jpg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import webURL from "./web.png"
 
 import css from "./tech/css.svg";
 import git from "./tech/git.svg";
@@ -30,6 +31,7 @@ import freelance from "./company/freelance.png"
 import travel_advisor from "./travel-advisor.webp"
 import show_case from "./car-showcase.jpg"
 import blackout from './blackout.webp'
+
 
 export {
   java,
@@ -57,5 +59,6 @@ export {
   show_case,
   blackout,
   github_contact,
-  freelance
+  freelance,
+  webURL,
 };
