@@ -64,7 +64,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="z-10 absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
-        <a href="#about">
+        <a href="#about" aria-label="Go to about">
           <div
             className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.dev
