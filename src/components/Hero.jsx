@@ -56,6 +56,7 @@ const Hero = () => {
           >WEB</span> application
           </p>
           <button
+            aria-label={'Show CV'}
             onClick={downloadFile}
             className={"transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 delay-0 mt-6 shadow-lg shadow-yellow-500/50 bg-[#FAD64C] hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 text-black font-semibold h-12 px-12 rounded-lg w-full flex items-center justify-center sm:w-auto"}
           >

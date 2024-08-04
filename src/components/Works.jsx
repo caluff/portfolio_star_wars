@@ -21,9 +21,9 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, u
           </div>
           <div
             className="flex basis-full flex-col tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[230px] pt-2">
-            <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+            <h2 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
               {name}
-            </h3>
+            </h2>
             <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
               {description}
