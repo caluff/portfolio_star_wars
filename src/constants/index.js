@@ -99,7 +99,7 @@ const experiences = [
     icon: desoft,
     time: 'Part time',
     iconBg: "#383E56",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 - Aug 2024",
     points: [
       "Development and maintenance of web applications using React.js and other related technologies",
       "Collaborate with cross-functional teams including designers and other developers to create high-quality products",
@@ -109,7 +109,7 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Freelance",
+    company_name: "Textony",
     icon: freelance,
     time:'Full time',
     iconBg: "#383E56",
