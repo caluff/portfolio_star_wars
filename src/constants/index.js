@@ -154,7 +154,7 @@ const projects = [
     ],
     image: travel_advisor,
     source_code_link: "https://github.com/caluff/travel_advisor",
-    url_code_link: "https://danielcaluff-traveladvisor.vercel.app/",
+    url_code_link: "https://traveladvisor-caluff.vercel.app",
     developing: false,
   },
   {
@@ -190,7 +190,7 @@ const projects = [
     ],
     image: show_case,
     source_code_link: "https://github.com/caluff/car_showcase",
-    url_code_link: "https://danielcaluff-car-showcase.vercel.app/",
+    url_code_link: "https://carshowcase-caluff.vercel.app",
     developing: false,
   },
   {
