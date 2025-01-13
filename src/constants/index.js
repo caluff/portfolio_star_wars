@@ -15,7 +15,7 @@ import {
   creator,
   typescript,
   show_case,
-  blackout,
+  startup,
   freelance
 } from "../assets";
 
@@ -194,19 +194,19 @@ const projects = [
     developing: false,
   },
   {
-    name: "Blackout",
-    description: "Coffee-bar website which provides prices and conditions information of products on sale. In addition, it has a management section where supervisor can easily modify offers",
+    name: "Houcase Startup",
+    description: "Showcase Startups is an innovative platform where entrepreneurs can present their projects to attract investors, collaborators and customers.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "nextjs",
+        name: "nextjs15",
         color: "gold-text-gradient",
       },
       {
-        name: "xata.io",
+        name: "sanity",
         color: "green-text-gradient",
       },
       {
@@ -218,14 +218,18 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "cloudinary",
+        name: "sentry",
         color: "violet-text-gradient",
       },
+      {
+        name: "shadcn",
+        color: "white-text-gradient"
+      }
     ],
-    image: blackout,
-    source_code_link: "https://github.com/caluff/blackout_coffee",
-    url_code_link: "https://danielcaluff-blackout-coffee.vercel.app/",
-    developing: true,
+    image: startup,
+    source_code_link: "https://github.com/caluff/startup",
+    url_code_link: "https://startup-caluff.vercel.app/",
+    // developing: true,
   },
 ];
 

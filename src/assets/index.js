@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./logo-laptop.svg";
 
 import creator from "./creator.jpg";
 import mobile from "./mobile.jpg";
@@ -30,7 +30,7 @@ import freelance from "./company/freelance.png"
 
 import travel_advisor from "./travel-advisor.webp"
 import show_case from "./car-showcase.jpg"
-import blackout from './blackout.webp'
+import startup from './houcase-startup.webp'
 
 
 export {
@@ -57,7 +57,7 @@ export {
   travel_advisor,
   typescript,
   show_case,
-  blackout,
+  startup,
   github_contact,
   freelance,
   webURL,
