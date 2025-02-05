@@ -1,5 +1,5 @@
 import BallCanvas from "./Ball";
 import StarsCanvas from "./Stars";
 import ParticlesCanvas from "./Particles";
-
-export {BallCanvas,StarsCanvas, ParticlesCanvas};
+import EarthCanvas from "./death.jsx";
+export {BallCanvas,StarsCanvas, ParticlesCanvas, EarthCanvas};
