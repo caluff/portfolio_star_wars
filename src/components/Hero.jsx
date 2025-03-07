@@ -1,4 +1,3 @@
-import React from "react";
 import {motion} from "framer-motion";
 import {styles} from "../styles";
 import {whatsapp, telegram, linkedin, github_contact} from "../assets"
@@ -23,22 +22,22 @@ const Hero = () => {
             <div className="w-1 sm:h-80 h-40 yellow-gradient"/>
           </div>
 
-          <a href={'https://www.linkedin.com/in/danielcaluff'} target={"_blank"}>
+          <a href={'https://www.linkedin.com/in/danielcaluff'} target={"_blank"} rel="noreferrer">
             <img src={linkedin}
                  className={"my-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 delay-0"}
                  alt={"linkedin"}/>
           </a>
-          <a href={'https://t.me/DanielCaluff'} target={"_blank"}>
+          <a href={'https://t.me/DanielCaluff'} target={"_blank"} rel="noreferrer">
             <img src={telegram}
                  className={"my-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 delay-0"}
                  alt={"telegram"}/>
           </a>
-          <a href={`https://api.whatsapp.com/send?phone=${import.meta.env.VITE_APP_NUMBER}`} target={"_blank"}>
+          <a href={`https://api.whatsapp.com/send?phone=${import.meta.env.VITE_APP_NUMBER}`} target={"_blank"} rel="noreferrer">
             <img src={whatsapp}
                  className={"my-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 delay-0"}
                  alt={"whatsapp"}/>
           </a>
-          <a href={'https://github.com/caluff'} target={"_blank"}>
+          <a href={'https://github.com/caluff'} target={"_blank"} rel="noreferrer">
             <img src={github_contact}
                  className={"my-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 delay-0"}
                  alt={"telegram"}/>
@@ -46,8 +45,8 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white text-[40px]`}>
-            Hi, I'm &nbsp;
-            <span className="font-stare text-[#FAD64C] tracking-wide">Daniel caluff</span>
+            Hi, I&apos;m &nbsp;
+            <span className="font-stare text-[#FAD64C] tracking-wide">Daniel Caluff</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Software Developer <br className="sm:block hidden"/>
