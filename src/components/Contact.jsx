@@ -5,6 +5,7 @@ import {styles} from "../styles";
 import {SectionWrapper} from '../hoc';
 import {slideIn} from "../utils/motion";
 import {EarthCanvas} from './canvas';
+import {toast} from "sonner";
 
 const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
 const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
@@ -37,7 +38,24 @@ const Contact = () => {
       publicKey)
       .then(() => {
         setLoading(false);
-        alert('Thank you. I will get back to you as soon as possible.');
+        toast.custom((t) => (
+          <div className="bg-tertiary py-3 px-6 border-none flex items-start gap-4 w-full rounded-md">
+            <div className="flex-1 text-left">
+              <h1 className="text-emerald-500 font-bold mb-1">Email sent</h1>
+              <div className="flex flex-col md:flex-row md:justify-between md:items-center">
+                <p className="text-white text-sm mb-2 md:mb-0 md:mr-4">
+                  Thank you. I will get back to you as soon as possible.
+                </p>
+                <button
+                  className="text-sm text-blue-400 whitespace-nowrap"
+                  onClick={() => toast.dismiss(t)}
+                >
+                  Dismiss
+                </button>
+              </div>
+            </div>
+          </div>
+        ));
         setForm({
           name: '',
           email: '',
@@ -45,8 +63,24 @@ const Contact = () => {
         })
       }, (error) => {
         setLoading(false)
-        console.log(error);
-        alert('Something went wrong.')
+        toast.custom((t) => (
+          <div className="bg-red-900 py-3 px-6 border-none flex items-start gap-4 w-full rounded-md">
+            <div className="flex-1 text-left">
+              <h1 className="text-white font-bold mb-1">Error Occurred</h1>
+              <div className="flex flex-col md:flex-row md:justify-between md:items-center">
+                <p className="text-white text-sm mb-2 md:mb-0 md:mr-4">
+                  {error.text || 'There was an error processing your request. Please try again later.'}
+                </p>
+                <button
+                  className="text-sm text-red-300 whitespace-nowrap"
+                  onClick={() => toast.dismiss(t)}
+                >
+                  Dismiss
+                </button>
+              </div>
+            </div>
+          </div>
+        ));
       })
   }
   return (
