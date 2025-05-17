@@ -31,6 +31,7 @@ const Hero = () => {
             <img src={telegram}
                  className={"my-2 cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 delay-0"}
                  alt={"telegram"}/>
+
           </a>
           <a href={`https://api.whatsapp.com/send?phone=${import.meta.env.VITE_APP_NUMBER}`} target={"_blank"} rel="noreferrer">
             <img src={whatsapp}
