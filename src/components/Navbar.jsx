@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <nav
             className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 backdrop-blur-lg`}>
-            <div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
+            <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
                 <Link
                     to="/"
                     className="flex items-center gap-2"
@@ -23,7 +23,7 @@ const Navbar = () => {
                     <img src={logo} alt="logo" className="w-10 h-10 object-contain animate-pulse" />
                     <p className="text-white text-[18px] font-bold cursor-pointer flex ">
                         Daniel Caluff &nbsp;
-                        <span className="sm:block hidden">| Software Developer</span>
+                        <span className="sm:block hidden">| Frontend Engineer</span>
                     </p>
                 </Link>
 

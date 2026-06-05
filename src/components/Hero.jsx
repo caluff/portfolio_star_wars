@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
-        className={`${styles.paddingX} z-10 lg:z-0 absolute inset-0 top-[120px] max-w-7x1 mx-auto flex flex-row items-start gap-5 `}
+        className={`${styles.paddingX} z-10 lg:z-0 absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 `}
       >
         <div className={"flex flex-col"}>
           <div className="flex flex-col justify-center items-center mt-5">
@@ -49,10 +49,10 @@ const Hero = () => {
             <span className="font-stare text-[#FAD64C] tracking-wide">Daniel Caluff</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Software Developer <br className="sm:block hidden"/>
-            focused in <span
+            Frontend Engineer <br className="sm:block hidden"/>
+            crafting scalable <span
             className={'text-transparent bg-clip-text bg-gradient-to-r from-[#f12711] to-[#f5af19] font-stare'}
-          >WEB</span> application
+          >WEB</span> experiences from architecture to delivery
           </p>
           <button
             aria-label={'Show CV'}
@@ -67,7 +67,7 @@ const Hero = () => {
         <a href="#about" aria-label="Go to about">
           <div
             className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.dev
+            <motion.div
               animate={{y: [0, 24, 0]}}
               transition={{
                 duration: 1.5,

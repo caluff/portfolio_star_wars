@@ -31,6 +31,7 @@ import freelance from "./company/freelance.png"
 import travel_advisor from "./travel-advisor.webp"
 import show_case from "./car-showcase.jpg"
 import startup from './houcase-startup.webp'
+import gallo_express from './gallo-express.png'
 
 
 export {
@@ -58,6 +59,7 @@ export {
   typescript,
   show_case,
   startup,
+  gallo_express,
   github_contact,
   freelance,
   webURL,
