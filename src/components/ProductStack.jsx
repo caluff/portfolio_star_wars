@@ -1,5 +1,6 @@
-import React from 'react';
+/* eslint-disable react-refresh/only-export-components */
 import {motion} from 'framer-motion';
+import PropTypes from 'prop-types';
 import {SectionWrapper} from '../hoc';
 import {styles} from '../styles';
 import {integrations} from '../constants';
@@ -29,6 +30,15 @@ const IntegrationCard = ({integration, index}) => (
     </p>
   </motion.article>
 );
+
+IntegrationCard.propTypes = {
+  integration: PropTypes.shape({
+    category: PropTypes.string.isRequired,
+    tools: PropTypes.arrayOf(PropTypes.string).isRequired,
+    description: PropTypes.string.isRequired,
+  }).isRequired,
+  index: PropTypes.number.isRequired,
+};
 
 const ProductStack = () => {
   return (
