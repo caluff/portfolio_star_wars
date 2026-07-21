@@ -32,6 +32,7 @@ import travel_advisor from "./travel-advisor.webp"
 import show_case from "./car-showcase.jpg"
 import startup from './houcase-startup.webp'
 import gallo_express from './gallo-express.png'
+import need_this from './need-this.png'
 
 
 export {
@@ -60,6 +61,7 @@ export {
   show_case,
   startup,
   gallo_express,
+  need_this,
   github_contact,
   freelance,
   webURL,

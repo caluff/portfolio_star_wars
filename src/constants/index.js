@@ -17,7 +17,8 @@ import {
   show_case,
   startup,
   freelance,
-  gallo_express
+  gallo_express,
+  need_this
 } from "../assets";
 
 export const navLinks = [
@@ -157,6 +158,44 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "NEED THIS",
+    description: "Full-stack ecommerce platform with a responsive storefront, guest checkout, secure payments, real-time inventory, customer accounts, and a private operations dashboard.",
+    tags: [
+      {
+        name: "nextjs16",
+        color: "gold-text-gradient",
+      },
+      {
+        name: "react19",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "convex",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "violet-text-gradient",
+      },
+      {
+        name: "better-auth",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindCSS4",
+        color: "white-text-gradient",
+      },
+    ],
+    image: need_this,
+    source_code_link: "https://github.com/caluff/NEED-THISS",
+    url_code_link: "https://need-this.vercel.app/",
+    developing: false,
+  },
   {
     name: "Gallo Express",
     description: "Production-ready ecommerce app with catalogs, multi-location inventory, admin area, auth, file uploads, and persistent cart.",
