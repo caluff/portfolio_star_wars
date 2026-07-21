@@ -1,5 +1,4 @@
-import React from 'react'
-import {BallCanvas} from "./canvas";
+import BallCanvas from "./canvas/Ball.jsx";
 import {SectionWrapper} from "../hoc";
 import {technologies} from "../constants";
 

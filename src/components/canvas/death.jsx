@@ -1,4 +1,4 @@
-import React, {Suspense} from 'react';
+import {Suspense} from 'react';
 import {Canvas} from '@react-three/fiber';
 import {OrbitControls, useGLTF} from "@react-three/drei";
 
@@ -32,7 +32,7 @@ const EarthCanvas = () => {
   return (
     <Canvas
       shadows
-      frameloop='emand'
+      frameloop='demand'
       gl={{preserveDrawingBuffer: true}}
       camera={{
         fov: 45,

@@ -1,11 +1,15 @@
-import {useRef, Suspense} from 'react'
+import {useMemo, useRef, Suspense} from 'react'
 import {Canvas, useFrame} from "@react-three/fiber";
 import {Points, PointMaterial, Preload} from "@react-three/drei";
 import {random} from "maath";
 
 const Stars = (props) => {
   const ref = useRef();
-  const sphere = random.inSphere(new Float32Array(5000), {radius: 1.2})
+  const sphere = useMemo(
+    // Three reads positions in groups of three (x, y, z).
+    () => random.inSphere(new Float32Array(6000), {radius: 1.2}),
+    [],
+  );
   useFrame((state, delta) => {
     ref.current.rotation.x -= delta / 10
     ref.current.rotation.y -= delta / 15;

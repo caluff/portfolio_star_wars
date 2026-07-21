@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import {styles} from "../styles";
 import {SectionWrapper} from '../hoc';
 import {slideIn} from "../utils/motion";
-import {EarthCanvas} from './canvas';
+import EarthCanvas from './canvas/death.jsx';
 import {toast} from "sonner";
 
 const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
@@ -143,4 +143,4 @@ const Contact = () => {
     </div>
   )
 }
-export default SectionWrapper(Contact, "contact")
+export default SectionWrapper(Contact, "")

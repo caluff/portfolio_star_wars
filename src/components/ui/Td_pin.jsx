@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import {useState} from "react";
 import {motion} from "framer-motion";
 import {cn} from "../../utils/cn.js";
 import {github, webURL} from "../../assets/index.js";
@@ -42,7 +42,7 @@ export const PinContainer = ({children, title, href, className, containerClassNa
   );
 };
 
-export const PinPerspective = ({title, href, source_code_link}) => {
+export const PinPerspective = ({href, source_code_link}) => {
   return (
     <motion.div
       className="w-96 h-[460px] flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
@@ -50,17 +50,16 @@ export const PinPerspective = ({title, href, source_code_link}) => {
         <div className="absolute top-0 inset-x-0  flex justify-center flex-col items-center">
           <div
             className="relative space-x-2 items-center z-10 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-white/10 justify-between grid gap-3 grid-flow-col">
-            <a href={href} target={"_blank"}>
+            <a href={href} target={"_blank"} rel="noreferrer">
               <img src={webURL} alt="web" className="w-[34px] h-[34px] object-contain"/>
               <span
                 className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover/btn:opacity-40"></span>
             </a>
-            <div onClick={() => window.open(source_code_link, "_blank")}
-                 className="object-contain">
+            <a href={source_code_link} target="_blank" rel="noreferrer" className="object-contain">
               <img src={github} alt="github" className="w-[34px] h-[34px] object-contain"/>
               <span
                 className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover/btn:opacity-40"></span>
-            </div>
+            </a>
           </div>
         </div>
         <div

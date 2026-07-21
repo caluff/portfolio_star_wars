@@ -1,20 +1,20 @@
-import {useCallback} from "react";
-import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim";
+import Particles, {ParticlesProvider} from "@tsparticles/react";
+import {loadSlim} from "@tsparticles/slim";
 import {ParticleConfig} from "../../utils/particleConfig.js";
 
-const ParticlesCanvas = () => {
-    const particlesInit = useCallback(async engine => {
-        await loadSlim(engine);
-    }, []);
+const initializeParticles = async engine => {
+    await loadSlim(engine);
+};
 
+const ParticlesCanvas = () => {
     return (
+        <ParticlesProvider init={initializeParticles}>
             <Particles
               className={'absolute h-[100%] w-[100%] z-0'}
                 id="tsparticles"
-                init={particlesInit}
                 options={ParticleConfig}
             />
+        </ParticlesProvider>
     );
 };
 export default ParticlesCanvas;
